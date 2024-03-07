@@ -2,7 +2,7 @@ class Pet():
     name = None
     fullness = 0 
 
-    def _init_ (self, name):
+    def __init__ (self, name):
         self.name = name 
 
     def eat(self, food):
